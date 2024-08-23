@@ -1,0 +1,32 @@
+/* src/components/CustomerList.css */
+.customer-list {
+  padding: 20px;
+}
+
+.customer-list-header {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.alphabetical-wise, .clear {
+  background-color: #FF5A5F;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
